@@ -1,0 +1,291 @@
+@media (max-width: 1199px) {
+  .container-limit {
+    max-width: 690px;
+  }
+
+  /* Шапка */
+  .header {
+    max-width: 768px;
+  }
+
+  /* Основной контент */
+  .main {
+    max-width: 768px;
+  }
+
+  .hero-section {
+    padding: 210px 0 135px;
+  }
+
+  .hero-section__title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hero-section__text {
+    max-width: 345px;
+  }
+
+  .hero-section__pic {
+    top: 185px;
+    right: 39px;
+  }
+
+  .pros-content__wrapper {
+    padding-left: 15px;
+  }
+
+  .pros-content__text {
+    max-width: 450px;
+  }
+
+  .pros-points__content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .pros-points__text {
+    max-width: 210px;
+  }
+
+  .teachers-section {
+    padding-bottom: 50px;
+  }
+
+  .teacher-profile {
+    margin-bottom: 30px;
+  }
+
+  .teacher-profile:nth-child(odd) {
+    padding-left: 0;
+  }
+
+  .teacher-profile:nth-child(even) {
+    padding-right: 0;
+  }
+
+  .course-article__content {
+    min-height: 376px;
+  }
+
+  .course-article__btn {
+    padding: 20px 56px;
+  }
+
+  .course-article__time {
+    right: 10px;
+  }
+
+  .footer {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-limit {
+    max-width: 510px;
+  }
+
+  /* Шапка */
+  .header {
+    max-width: 576px;
+  }
+
+  .header__row {
+    gap: 30px;
+  }
+
+  .header__col,
+  .header__col-2 {
+    justify-content: center;
+  }
+
+  /* Основной контент */
+  .main {
+    max-width: 576px;
+  }
+
+  .hero-section {
+    padding: 77px 0 135px;
+  }
+
+  .hero-section__pic {
+    display: none;
+  }
+
+  /* .pros-content__picture {
+    padding-right: 30px;
+  } */
+
+  .pros-content__img {
+    padding-top: 0;
+    max-width: 150px;
+    max-height: 134px;
+    min-width: 150px;
+    min-height: 134px;
+  }
+
+  .pros-content__wrapper {
+    padding-left: 45px;
+  }
+
+  .pros-content__title {
+    max-width: 330px;
+  }
+
+  .pros-content__text {
+    max-width: 330px;
+  }
+
+  .course-article__content {
+    min-height: 514px;
+  }
+
+  .course-article__wrapper {
+    margin-bottom: 38px;
+  }
+
+  .course-article__btn {
+    padding: 20px 48px;
+  }
+
+  .footer {
+    max-width: 576px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container-limit {
+    max-width: 290px;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .section__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  /* Шапка */
+  .header {
+    max-width: 575px;
+  }
+
+  .header__col {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .header__logo {
+    max-width: 72px;
+  }
+
+  .burger {
+    display: inline-block;
+  }
+
+  .header__col-2 {
+    display: none;
+  }
+
+  /* Основной контент */
+  .main {
+    max-width: 575px;
+  }
+
+  .hero-section {
+    padding: 50px 0;
+  }
+
+  .hero-section__content {
+    padding: 0;
+  }
+
+  .hero-section__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .hero-section__text {
+    margin-bottom: 50px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero-section__btn {
+    padding: 20px 54px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .pros-section__row {
+    display: none;
+  }
+
+  .pros-content__col {
+    padding: 0;
+  }
+
+  .pros-content__wrapper {
+    padding-left: 0;
+  }
+
+  .pros-content__title {
+    max-width: 100%;
+    line-height: 26px;
+  }
+
+  .pros-content__text {
+    max-width: 100%;
+  }
+
+  .pros-points {
+    gap: 30px;
+  }
+
+  .pros-points__content {
+    flex-direction: row;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .teachers-section {
+    padding-bottom: 20px;
+  }
+
+  .teacher-profile:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .teacher-profile:nth-child(even) {
+    padding-left: 0;
+  }
+
+  .teacher-profile__text {
+    max-width: 100%;
+  }
+
+  .courses-section {
+    padding-bottom: 20px;
+  }
+
+  .my-col:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .my-col:nth-child(even) {
+    padding-left: 0;
+  }
+
+  .course-article__content {
+    min-height: 473px;
+  }
+
+  .footer {
+    max-width: 575px;
+  }
+}
