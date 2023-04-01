@@ -52,7 +52,13 @@
     padding-bottom: 50px;
   }
 
+  .teachers-row {
+    flex-wrap: wrap;
+  }
+
   .teacher-profile {
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 30px;
   }
 

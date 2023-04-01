@@ -157,7 +157,7 @@ circle {
 
 /* Шапка */
 .header {
-  padding: 30px 0;
+  padding: 30px 0 24px;
   margin: 0 auto;
   max-width: 1440px;
   color: var(--white-text-color);
@@ -210,8 +210,6 @@ circle {
 .main {
   margin: 0 auto;
   max-width: 1440px;
-  box-shadow: 5px 5px 20px #212133;
-  /* delete line below before release */
 }
 
 .hero-section {
@@ -234,14 +232,14 @@ circle {
 }
 
 .hero-section__text {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   max-width: 444px;
   font-size: 18px;
   line-height: 27px;
 }
 
 .hero-section__btn {
-  padding: 24px 76px;
+  padding: 21px 76px;
   font-size: 18px;
   line-height: 27px;
 }
@@ -249,7 +247,7 @@ circle {
 .hero-section__pic {
   position: absolute;
   top: 15px;
-  right: 165px;
+  right: 158px;
   z-index: 2;
 }
 
@@ -260,11 +258,12 @@ circle {
 
 /* Преимущества */
 .pros-section {
+  padding-bottom: 79px;
   color: var(--grey-text-color-1);
 }
 
 .pros-content {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .pros-content__img {
@@ -278,6 +277,7 @@ circle {
 }
 
 .pros-content__title {
+  margin-bottom: 17px;
   width: 380px;
   color: var(--dark-text-color-1);
 }
@@ -306,9 +306,30 @@ circle {
 
 /* Преподователи */
 .teachers-section {
+  padding: 74px 0;
   color: var(--white-text-color);
   background-color: var(--dark-back-color);
 }
+
+.teachers-section__title {
+  margin-bottom: 24px;
+}
+
+.teachers-row {
+  flex-wrap: nowrap;
+}
+
+.teacher-profile {
+  padding: 0;
+}
+
+/* .teacher-profile:first-child {
+  padding-left: 0;
+}
+
+.teacher-profile:last-child {
+  padding-right: 0;
+} */
 
 .teacher-profile__img {
   margin-bottom: 30px;
@@ -318,7 +339,7 @@ circle {
 }
 
 .teacher-profile__title {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .teacher-profile__text {
@@ -328,7 +349,12 @@ circle {
 
 /* Курсы */
 .courses-section {
+  padding-top: 74px;
   padding-bottom: 50px;
+}
+
+.courses-section__title {
+  margin-bottom: 24px;
 }
 
 .course-article {
@@ -351,7 +377,7 @@ circle {
 }
 
 .course-article__title {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   font-size: 18px;
   line-height: 27px;
 }
@@ -391,7 +417,7 @@ circle {
 }
 
 .socials-row {
-  padding: 28px 0;
+  padding: 28px 0 24px;
 }
 
 .socials__list {
